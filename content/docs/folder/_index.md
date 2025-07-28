@@ -8,3 +8,15 @@ sidebar:
 ---
 
 Pages can be organized into folders.
+
+{{% steps %}}
+
+### Select your distractions
+
+Pick your most distracting apps and websites.
+
+### Set your goals
+
+This is the second step.
+
+{{% /steps %}}
