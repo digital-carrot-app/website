@@ -5,9 +5,13 @@ layout: "hextra-home"
 ---
 
 {{< hextra/hero-container
-  image="/images/logo.svg"
+  image="/images/hero-portrait.png"
   imageTitle="Digital Carrot"
 >}}
+
+<div class="hx-mt-6 hx-mb-6">
+    <img src="/images/logo.svg" style="height: 150px" />
+</div>
 
 <div class="hx-mt-6 hx-mb-6">
 {{< hextra/hero-headline >}}
@@ -97,7 +101,7 @@ How it Works
 
   {{< hextra/feature-card
     title="Enforcement Plugins"
-    subtitle="Enforcement plugins block stuff until you finish your goals. These are mainly used to block distracting apps and websites, but can also be written to connect to any available API on the internet. Want to turn off our air conditioner? Lock your snack drawer? Disable your credit card? All of this is possible!"
+    subtitle="Enforcement plugins block distractions until you finish your goals. These are mainly used to block distracting apps and websites, but can also be written to connect to any available API on the internet. Want to turn off our air conditioner? Lock your snack drawer? Disable your credit card? All of this is possible!"
     icon="cake"
 
   >}}

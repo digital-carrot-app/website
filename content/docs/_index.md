@@ -1,18 +1,15 @@
 ---
 title: Documentation
-next: first-page
+type: docs/list
 ---
 
-This is a demo of the theme's documentation layout.
+## Introduction
 
-## Hello, World!
 
-```go {filename="main.go"}
-package main
 
-import "fmt"
+## Dive Deeper
 
-func main() {
-    fmt.Println("Hello, World!")
-}
-```
+{{< cards >}}
+  {{< card link="custom-goals" title="Creating Goals" icon="check" >}}
+  {{< card link="overview" title="Technical Overview" icon="pencil" >}}
+{{< /cards >}}
