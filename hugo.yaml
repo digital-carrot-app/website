@@ -21,13 +21,13 @@ menu:
     - name: Docs
       pageRef: /docs
       weight: 1
-    - name: About
-      pageRef: /about
-      weight: 2
-    - name: Search
-      weight: 4
-      params:
-        type: search
+    # - name: About
+    #   pageRef: /about
+    #   weight: 2
+    # - name: Search
+    #   weight: 4
+    #   params:
+    #     type: search
 
 params:
   navbar:
