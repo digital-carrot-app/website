@@ -125,7 +125,7 @@ Features
 {{< hextra/feature-grid cols="4" >}}
   {{< hextra/feature-card
     title="Customizeable Goals"
-    subtitle="Goals are defined using a simple expression language. Can't program? Don't worry! Digital Carrot comes with pre-programed goals as well as a drag and drop editor to accomodate everyone."
+    subtitle="Goals are defined using a simple expression language. Can't program? Don't worry! Digital Carrot comes with pre-programed goals as well as a drag and drop editor to accommodate everyone."
     link="https://expr-lang.org/"
   >}}
 
