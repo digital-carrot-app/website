@@ -25,7 +25,7 @@ layout: "hextra-home"
 </div>
 
 <div class="hx-mt-6 hx-mb-6">
-{{< hextra/hero-button text="Beta opens August 7th. Sign up here!" link="https://docs.google.com/forms/d/e/1FAIpQLScAM7UIVUZnG3MHprLzKH3jQG83SdKfIAQ5BNGwV3qel1hWYQ/viewform" >}}
+{{< hextra/hero-button text="iOS Beta is Live! Sign up here" link="docs/beta" >}}
 </div>
 
 {{< /hextra/hero-container >}}

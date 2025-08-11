@@ -6,7 +6,11 @@ weight: 1
 # next: docs/folder/
 ---
 
-Digital Carrot is currently in beta. If you're intersted in helping to test out Digital Carrot, please head over to our [sign up form](https://docs.google.com/forms/d/e/1FAIpQLScAM7UIVUZnG3MHprLzKH3jQG83SdKfIAQ5BNGwV3qel1hWYQ/viewform?usp=sharing&ouid=116870432799077401261). Beta tester participants will receive a lifetime subscription to the paid version of Digital Carrot once it launches!
+{{< callout emoji="👉" >}}
+  [Sign up for the beta here!](https://docs.google.com/forms/d/e/1FAIpQLScAM7UIVUZnG3MHprLzKH3jQG83SdKfIAQ5BNGwV3qel1hWYQ/viewform?usp=sharing&ouid=116870432799077401261)
+{{< /callout >}}
+
+Digital Carrot is currently in beta.  Beta tester participants will receive a lifetime subscription to the paid version of Digital Carrot once it launches!
 
 Beta testers are welcome and encouraged to:
 
@@ -38,6 +42,10 @@ Our roadmap is flexible and will change depending on what people request during 
 ### Windows Support
 
 - Windows app for Digital Carrot
+
+### Unit conversion support
+
+- Allow users to pick imperial or metric units
 
 ### Plugin Registry and SDK
 
