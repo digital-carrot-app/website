@@ -5,7 +5,9 @@ weight: 2
 # prev: /
 # next: docs/folder/
 ---
-The browser extension needs permissions to read every website you visit so that you can track how much time you spent on certain websites.
+
+> [!NOTE]
+> Digital Carrot needs to access all pages to be able to function properly.
 
 {{% steps %}}
 

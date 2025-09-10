@@ -5,7 +5,11 @@ weight: 1
 # prev: /
 # next: docs/folder/
 ---
-The browser extension needs permissions to run in incognito mode so that it can block websites while you're running incognito.
+
+> [!NOTE]
+> Digital Carrot needs to be able to run in incognito mode to be able to function properly.
+
+## Setup
 
 {{% steps %}}
 
