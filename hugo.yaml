@@ -44,5 +44,5 @@ params:
     displayPoweredBy: false
 
   editURL:
-    enable: true
+    enable: false
     base: "https://github.com/digital-carrot-app/website/edit/main/content"
