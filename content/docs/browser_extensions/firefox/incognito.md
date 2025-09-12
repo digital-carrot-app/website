@@ -1,5 +1,5 @@
 ---
-title: Enable Icognito Mode
+title: Enable Incognito Mode
 type: docs
 weight: 1
 # prev: /
