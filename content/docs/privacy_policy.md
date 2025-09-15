@@ -13,27 +13,25 @@ This includes health data, to-do lists, calendar events, app and browser usage m
 API keys, login credentials to other services and more. Because of this, protecting your
 data is of the utmost importance to us. As a result we commit to:
 
-- Never sell any of your information.
+- Never sell or share any of your information with third parties.
 - Never use any of your information for advertising or marketing purposes.
-- Always handle your data in a responsible manner. This includes end to end encryption for
-  any data that needs to leave your device and following security best practices on all of
-  our servers.
+- Always handle your data in a responsible manner. This following industry standard security
+  best practices such as end to end encryption.
 
 All data that you provide to the Digital Carrot app will be fully private and will not be
-accessible to anyone aside from the user who provided it without express consent from
-the user.
+accessible to anyone else.
 
-Digital carrot may collect some personal information, but will only do so for your benefit
-and with your direct consent. Any data collection that we do will be fully optional, will
-not affect the app's functionality and will be opt-in by default. We currently will only
-collect information in the following scenarios:
+With that said, Digital carrot may collect some personal information, but will only do so
+for your benefit and with your direct consent. Any data collection that we do will be fully
+optional, will not affect the app's functionality and will be opt-in by default. We currently
+will only collect information in the following scenarios:
 
 - For users who wish to opt-in to optional scientific studies.
 - For use in customer support cases where user's information may be required for debugging.
 
 For more information on these scenarios, see section 4.
 
-Digital Carrot may collect some anonymous metrics pertaining to app usage. This includes
+Digital Carrot may also collect some anonymous metrics pertaining to app usage. This includes
 information such as the number of times a plugin was downloaded, but will never include
 any personal information. For more details, see section 5.
 
@@ -118,7 +116,8 @@ on your device, but won't be backed up.
 #### 3.2.2 Data Deletion Policy
 
 All users will be able to request that their data is immediately deleted from our servers
-at any point no questions asked.
+at any point no questions asked. We're happy to do this for you! After all, your data is
+encrypted and of no use to us and only serves to increase our cloud storage bill.
 
 ### 3.3 Data Export
 
