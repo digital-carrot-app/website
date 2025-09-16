@@ -13,17 +13,13 @@ weight: 1
 
 {{% steps %}}
 
-### Go to about:addons
+### Go to the Extension Settings Page
 
-Copy `about:addons` and paste it into a new browser tab.
+Copy `chrome://extensions/?id=jgmpkomnkdehpgjddbionlgameoihgln` and paste it into a new browser tab.
 
-### Find the Digital Carrot Extension in the list
+### Ensure the "Allow in Incognito" toggle is On
 
-![](/images/docs/firefox/find_extension.png)
-
-### Allow "Run in Private Windows"
-
-![](/images/docs/firefox/enable_incognito.png)
+![](/images/docs/chrome/incognito.png)
 
 {{% /steps %}}
 

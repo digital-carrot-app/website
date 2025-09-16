@@ -1,7 +1,10 @@
 ---
 title: Google Chrome
 type: docs
-weight: 1
+weight: 2
 ---
 
-Browser extension coming soon!
+<br/>
+{{< hextra/hero-button text="Install the Chrome Extension (coming soon)" link="" >}}
+
+The Digital Carrot browser extension is required to be able to track website usage and block websites in Google Chrome.

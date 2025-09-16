@@ -11,21 +11,14 @@ weight: 2
 
 {{% steps %}}
 
-### Go to about:addons
+### Go to the Extension Settings Page
 
-Copy `about:addons` and paste it into a new browser tab.
+Copy `chrome://extensions/?id=jgmpkomnkdehpgjddbionlgameoihgln` and paste it into a new browser tab.
 
-### Find the Digital Carrot Extension in the list
 
-![](/images/docs/firefox/find_extension.png)
+### Under "Site access" select "On all sites"
 
-### Open the "Permissions and Data" tab
-
-![](/images/docs/firefox/permissions_tab.png)
-
-### Allow "Access your data for all websites"
-
-![](/images/docs/firefox/access_data.png)
+![](/images/docs/chrome/all_page_access.png)
 
 {{% /steps %}}
 
