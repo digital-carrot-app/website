@@ -15,8 +15,8 @@ data is of the utmost importance to us. As a result we commit to:
 
 - Never sell or share any of your information with third parties.
 - Never use any of your information for advertising or marketing purposes.
-- Always handle your data in a responsible manner. This following industry standard security
-  best practices such as end to end encryption.
+- Always handle your data in a responsible manner. We strive to follow industry
+  best practices such as securing your data with end to end encryption.
 
 All data that you provide to the Digital Carrot app will be fully private and will not be
 accessible to anyone else.
@@ -43,7 +43,7 @@ To summarize:
   customer support.
 - We MAY collect some anonymous data pertaining to app usage. This will never include any
   personal information.
-- We will NEVER share or sell your data with third parties such as advertisers and data brokers.
+- We will NEVER share or sell your data with third parties such as advertisers or data brokers.
 - We will follow industry best practices such as end to end encrypt any time that your data
   is stored on our servers.
 
@@ -117,7 +117,7 @@ on your device, but won't be backed up.
 
 All users will be able to request that their data is immediately deleted from our servers
 at any point no questions asked. We're happy to do this for you! After all, your data is
-encrypted and of no use to us and only serves to increase our cloud storage bill.
+encrypted, of no use to us and only serves to increase our cloud storage bill.
 
 ### 3.3 Data Export
 
