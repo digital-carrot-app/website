@@ -4,9 +4,7 @@ type: docs
 weight: 5
 ---
 
-THIS DOCUMENT IS CURRENTLY IN DRAFT.
-
-## 1 Introduction
+## 1. Introduction
 
 Because of the nature of the app, Digital Carrot handles a lot of sensitive information.
 This includes health data, to-do lists, calendar events, app and browser usage metrics,
@@ -19,12 +17,9 @@ data is of the utmost importance to us. As a result we commit to:
   best practices such as securing your data with end to end encryption.
 
 All data that you provide to the Digital Carrot app will be fully private and will not be
-accessible to anyone else.
-
-With that said, Digital carrot may collect some personal information, but will only do so
-for your benefit and with your direct consent. Any data collection that we do will be fully
-optional, will not affect the app's functionality and will be opt-in by default. We currently
-will only collect information in the following scenarios:
+accessible to anyone else without your explicit consent. Any data that we do collect will
+be done with your explicit consent and without employing dark patterns to trick you into
+consenting. We may collect data in the following situation:
 
 - For users who wish to opt-in to optional scientific studies.
 - For use in customer support cases where user's information may be required for debugging.
@@ -38,16 +33,14 @@ any personal information. For more details, see section 5.
 To summarize:
 
 - We will NEVER collect any personal information without your EXPLICIT consent to do so.
-  Any personal information you do consent to share will either be anonymized and aggregated
-  in the form of optional, opt-in scientific studies OR will be on a case by case basis for
-  customer support.
+  Any personal information you do consent to share will be handled securely and privately.
 - We MAY collect some anonymous data pertaining to app usage. This will never include any
   personal information.
 - We will NEVER share or sell your data with third parties such as advertisers or data brokers.
 - We will follow industry best practices such as end to end encrypt any time that your data
   is stored on our servers.
 
-## 2 Scope
+## 2. Scope
 
 This privacy policy applies to all software pertaining to the Digital Carrot apps across all
 platforms that are either written by or certified by Digital Carrot LLC. This includes the
@@ -78,7 +71,7 @@ plugins.
 
 - Users must explicitly opt in to download and use third party extensions in the app.
 
-## 3 How do we handle your data?
+## 3. How do we handle your data?
 
 Your data can reside in one of two places in the Digital Carrot ecosystem:
 
@@ -125,7 +118,7 @@ Users will have the ability to export all their data from the app. For the other
 out there, your data will be exported in JSON format so that you can analyze it to
 your hearts content!
 
-## 4 Opt in Data Collection
+## 4. Opt in Data Collection
 
 Users may choose to share some information with us for the purpose of scientific
 studies or to help with customer support cases.
@@ -166,7 +159,7 @@ Any customer information relating to bugs and support tickets will be stored
 internally and will never be posted on public issue trackers.
 
 
-## 5 Collection of Anonymous Metrics
+## 5. Collection of Anonymous Metrics
 
 Digital Carrot reserves the right to collect some anonymous metrics that will allow us
 to determine the health of the application. This includes, but is not limited to,
@@ -177,3 +170,8 @@ information such as:
 - What operating systems the app is installed on.
 
 This does NOT include any personal information such as health or location data.
+
+## Revisions
+
+- 1.2: October 15, 2025: Wordsmithing in section 1.
+- 1.1: September 15, 2025: Create the initial draft.
