@@ -11,6 +11,8 @@ weight: 1
 
 ## Setup
 
+_**WAITING FOR APPROVAL FROM MICROSOFT**_
+
 {{% steps %}}
 
 ### WIP

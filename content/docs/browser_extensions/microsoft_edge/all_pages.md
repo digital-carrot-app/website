@@ -9,6 +9,8 @@ weight: 2
 > [!NOTE]
 > Digital Carrot needs to access all pages to be able to function properly.
 
+_**WAITING FOR APPROVAL FROM MICROSOFT**_
+
 {{% steps %}}
 
 ### WIP
