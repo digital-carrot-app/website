@@ -11,11 +11,15 @@ weight: 1
 
 ## Setup
 
-_**WAITING FOR APPROVAL FROM MICROSOFT**_
-
 {{% steps %}}
 
-### WIP
+### Go to the Extension Settings Page
+
+Copy `edge://extensions/?id=dmhfefkojpanbpldgfkfaioaocdklbdd` and paste it into a new browser tab.
+
+### Ensure the "Allow in inPrivate" box is checked
+
+![](/images/docs/edge/incognito.png)
 
 {{% /steps %}}
 

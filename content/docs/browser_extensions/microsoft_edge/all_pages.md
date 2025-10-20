@@ -9,12 +9,15 @@ weight: 2
 > [!NOTE]
 > Digital Carrot needs to access all pages to be able to function properly.
 
-_**WAITING FOR APPROVAL FROM MICROSOFT**_
-
 {{% steps %}}
 
-### WIP
+### Go to the Extension Settings Page
 
+Copy `edge://extensions/?id=dmhfefkojpanbpldgfkfaioaocdklbdd` and paste it into a new browser tab.
+
+### Ensure the "Site Access" is set to "On All Sites"
+
+![](/images/docs/edge/all_pages.png)
 
 {{% /steps %}}
 
