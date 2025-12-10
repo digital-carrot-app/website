@@ -18,9 +18,18 @@ markup:
 
 menu:
   main:
+    - name: Download
+      pageRef: /download
+      weight: 1
+    - name: Pricing
+      pageRef: /pricing
+      weight: 2
+    - name: Sync
+      pageRef: /sync
+      weight: 3
     - name: Docs
       pageRef: /docs
-      weight: 1
+      weight: 10
     # - name: About
     #   pageRef: /about
     #   weight: 2
