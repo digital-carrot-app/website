@@ -15,7 +15,9 @@ markup:
   # enable hextra syntax highlight
   highlight:
     noClasses: false
-
+services:
+  googleAnalytics:
+    ID: G-1RPGQVFLFG
 menu:
   main:
     - name: Download
