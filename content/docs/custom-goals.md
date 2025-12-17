@@ -1,7 +1,7 @@
 ---
 title: Creating Goals
 type: docs
-weight: 10
+weight: 1
 # prev: /
 # next: docs/folder/
 ---

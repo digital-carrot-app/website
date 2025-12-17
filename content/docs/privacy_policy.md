@@ -1,7 +1,7 @@
 ---
 title: Privacy Policy
 type: docs
-weight: 5
+weight: 100
 ---
 
 ## 1. Introduction

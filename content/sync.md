@@ -1,21 +1,23 @@
 ---
 date: '2025-07-27T08:00:58-06:00'
 toc: false
-# title: 'Sync'
+# layout: "wide"
+
+title: 'Sync'
 ---
 
 
-<div class="hx-mt-6 hx-mb-6">
+<!--<div class="hx:mt-6 hx:mb-6">
 {{< hextra/hero-headline >}}
   Sync
 {{< /hextra/hero-headline >}}
-</div>
-<div class="hx-mt-6 hx-mb-6">
+</div>-->
+<div class="hx:mt-6 hx:mb-6">
 {{< hextra/hero-subtitle >}}
   Don't let your distractions follow you from one device to another.
 {{< /hextra/hero-subtitle >}}
 </div>
-<img src="/images/sync-tmp.png" />
+<img src="/images/sync.png" />
 
 ## Features
 

@@ -1,7 +1,7 @@
 ---
 title: Technical Overview
 type: docs
-weight: 10
+weight: 2
 ---
 
 ## Goals

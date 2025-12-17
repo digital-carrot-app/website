@@ -27,6 +27,9 @@ menu:
     - name: Sync
       pageRef: /sync
       weight: 3
+    - name: Plugins
+      pageRef: /plugins
+      weight: 4
     - name: Docs
       pageRef: /docs
       weight: 10
