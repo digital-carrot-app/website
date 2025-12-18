@@ -66,7 +66,7 @@ layout: "hextra-home"
     title="MacOS (beta)"
     subtitle="Download the Beta"
     icon="apple"
-    link="/docs/install_mac"
+    link="https://github.com/digital-carrot-app/release/releases/latest/download/Digital.Carrot.dmg"
   >}}
 
   {{< hextra/feature-card

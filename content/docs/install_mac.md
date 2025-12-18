@@ -2,6 +2,8 @@
 title: Install on Mac
 type: docs
 weight: 2
+draft: true
+
 # prev: /
 # next: docs/folder/
 ---
