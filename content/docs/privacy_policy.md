@@ -4,6 +4,8 @@ type: docs
 weight: 100
 ---
 
+Digital Carrot aims to be the Robin Hood of data privacy. Everyone wants to steal your data to sell you distractions. We aim to do the opposite. Our goal is to let you take back power by letting you leverage the data that companies have been collecting and letting you use it to improve your life and block out distractions.
+
 ## 1. Introduction
 
 Because of the nature of the app, Digital Carrot handles a lot of sensitive information.

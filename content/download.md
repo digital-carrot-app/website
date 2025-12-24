@@ -12,9 +12,9 @@ layout: "hextra-home"
 
 
 <div class="hx:mt-6 hx:mb-6">
-{{< hextra/hero-headline >}}
+{{< hextra/hero-section >}}
   Mobile
-{{< /hextra/hero-headline >}}
+{{< /hextra/hero-section >}}
 </div>
 
 {{< hextra/feature-grid cols=1 >}}
@@ -50,9 +50,9 @@ layout: "hextra-home"
 >}}
 
 <div class="hx:mt-6 hx:mb-6">
-{{< hextra/hero-headline >}}
+{{< hextra/hero-section >}}
   Desktop
-{{< /hextra/hero-headline >}}
+{{< /hextra/hero-section >}}
 </div>
 <!--
 {{< cards >}}
@@ -84,5 +84,97 @@ layout: "hextra-home"
   >}}
 
 {{< /hextra/feature-grid >}}
-
 {{< /hextra/hero-container >}}
+
+<div class="hx:w-full hx:mt-12 hx:mb-12">
+{{< hextra/hero-section >}}
+Pricing
+{{< /hextra/hero-section >}}
+
+<div class="content" width="100%">
+
+  <table>
+        <tr>
+            <td/>
+            <th colspan="2">Desktop</th>
+            <th colspan="2">Mobile</th>
+        </tr>
+        <tr>
+            <td/>
+            <th>Free</th>
+            <th>Premium</th>
+            <th>Free</th>
+            <th>Premium</th>
+        </tr>
+        <tr>
+            <td>Website Blocker</td>
+            <td>{{< icon "check" >}}</td>
+            <td>{{< icon "check" >}}</td>
+            <td>{{< icon "check" >}}</td>
+            <td>{{< icon "check" >}}</td>
+        </tr>
+        <tr>
+            <td>App Blocker</td>
+            <td>{{< icon "check" >}}</td>
+            <td>{{< icon "check" >}}</td>
+            <td>{{< icon "check" >}}</td>
+            <td>{{< icon "check" >}}</td>
+        </tr>
+        <tr>
+            <td>Custom Goals</td>
+            <td>{{< icon "check" >}}</td>
+            <td>{{< icon "check" >}}</td>
+            <td>{{< icon "check" >}}</td>
+            <td>{{< icon "check" >}}</td>
+        </tr>
+        <tr>
+            <td>Plugins</td>
+            <td>{{< icon "check" >}}</td>
+            <td>{{< icon "check" >}}</td>
+            <td>{{< icon "check" >}}</td>
+            <td>{{< icon "check" >}}</td>
+        </tr>
+        <tr>
+            <td>Block Lists</td>
+            <td>Unlimited</td>
+            <td>Unlimited</td>
+            <td>1 Block List</td>
+            <td>Unlimited</td>
+        </tr>
+        <tr>
+            <td>Passes</td>
+            <td>{{< icon "check" >}}</td>
+            <td>{{< icon "check" >}}</td>
+            <td></td>
+            <td>{{< icon "check" >}}</td>
+        </tr>
+        <tr>
+            <td>Commitment Mode</td>
+            <td>{{< icon "check" >}}</td>
+            <td>{{< icon "check" >}}</td>
+            <td></td>
+            <td>{{< icon "check" >}}</td>
+        </tr>
+        <tr>
+            <td>Sync</td>
+            <td></td>
+            <td>{{< icon "check" >}}</td>
+            <td></td>
+            <td>{{< icon "check" >}}</td>
+        </tr>
+    </table>
+
+Digital Carrot Premium is available via in app purchase on iOS.
+
+{{< cards >}}
+  {{< card 
+    title="Yearly Subscription"
+    subtitle="$59.99 per year ($4.99/mo)"
+  >}}
+  {{< card 
+    title="Monthly Subscription"
+    subtitle="$7.99 per month"
+  >}}
+
+{{< /cards >}}
+</div>
