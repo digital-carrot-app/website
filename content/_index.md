@@ -79,11 +79,12 @@ How it Works
 {{< hextra/hero-section >}}
   Get Healthy
 {{< /hextra/hero-section >}}
+{{< hextra/hero-subtitle >}}
+  Block social media, games and online video until I have...
+{{< /hextra/hero-subtitle >}}
+
 </div>
 
-{{< hextra/hero-subtitle >}}
-  I can use instagram once I have...
-{{< /hextra/hero-subtitle >}}
 
 {{< hextra/feature-grid cols="3" >}}
   {{< hextra/feature-card
@@ -118,6 +119,9 @@ How it Works
 {{< hextra/hero-section >}}
   Cut down on Screentime
 {{< /hextra/hero-section >}}
+{{< hextra/hero-subtitle >}}
+  Block apps, limit usage to certain hours or set a time limit.
+{{< /hextra/hero-subtitle >}}
 </div>
 
 {{< hextra/feature-grid cols="3" >}}
@@ -153,6 +157,9 @@ How it Works
 {{< hextra/hero-section >}}
   Improve your Productivity
 {{< /hextra/hero-section >}}
+{{< hextra/hero-subtitle >}}
+  Give yourself some extra motivation to finish your to-do list or learn a new skill.
+{{< /hextra/hero-subtitle >}}
 </div>
 
 {{< hextra/feature-grid cols="3" >}}
