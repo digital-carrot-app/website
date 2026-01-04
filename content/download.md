@@ -2,7 +2,7 @@
 date: '2025-07-27T08:00:58-06:00'
 layout: "hextra-home"
 ---
-
+<article class="hx:w-full hx:break-words hx:min-h-[calc(100vh-var(--navbar-height))] hx:min-w-0 hx:pt-4 hx:pb-8 hx:pl-[max(env(safe-area-inset-left),1.5rem)] hx:pr-[max(env(safe-area-inset-left),1.5rem)]">
 {{< hextra/hero-container
   image="/images/mobile_cropped.png"
   imageTitle="Digital Carrot"
@@ -92,7 +92,6 @@ Pricing
 {{< /hextra/hero-section >}}
 
 <div class="content" width="100%">
-
   <table>
         <tr>
             <td/>
@@ -177,4 +176,6 @@ Digital Carrot Premium is available via in app purchase on iOS.
   >}}
 
 {{< /cards >}}
+
 </div>
+</article>
