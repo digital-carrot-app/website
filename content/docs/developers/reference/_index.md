@@ -1,9 +1,7 @@
 ---
-title: Goal Plugins
+title: Reference
 type: docs
-weight: 2
+weight: 101
 # prev: /
 # next: docs/folder/
 ---
-
-Coming soon!

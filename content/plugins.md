@@ -40,4 +40,4 @@ title: 'Plugins'
   {{< card tag= "Goal" title="Todoist" subtitle="Create goals based on your Todoist tasks." link="https://github.com/digital-carrot-app/plugins/tree/main/todoist" >}}
 {{< /cards >}}
 
-Want a specific plugin? Open a ticket on [GitHub](https://github.com/digital-carrot-app/plugins/) to request it or submit a PR to add one yourself! The documentation for the plugin SDK will be available shortly.
+Want a specific plugin? Open a ticket on [GitHub](https://github.com/digital-carrot-app/plugins/) to request it or submit a PR to add one yourself! Learn more about plugins in our [developer guide](/).
