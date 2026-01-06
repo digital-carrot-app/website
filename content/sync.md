@@ -43,7 +43,7 @@ title: 'Sync'
 
 ## Pricing
 
-Available via in app purchase.
+Available via in app purchase on iOS.
 
 {{< cards >}}
   {{< card 

@@ -250,7 +250,7 @@ Take a break with Passes
   >}}
   {{< hextra/feature-card
     title="Use passes to skip a goal when life gets in the way"
-    subtitle="Don't let sick days kill your healthy habits. Passes let you bank your progress for days when you don't feel up to the challeng without losing your stride."
+    subtitle="Don't let sick days kill your healthy habits. Passes let you bank your progress for days when you don't feel up to the challenge without losing your stride."
   >}}
 
 {{< /hextra/feature-grid >}}
