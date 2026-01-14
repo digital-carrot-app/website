@@ -38,6 +38,9 @@ title: 'Plugins'
 
 {{< cards >}}
   {{< card tag= "Goal" title="Todoist" subtitle="Create goals based on your Todoist tasks." link="https://github.com/digital-carrot-app/plugins/tree/main/todoist" >}}
+  {{< card tag= "Goal" title="Location" subtitle="Create goals that require you to physically be in a specific location." link="https://github.com/digital-carrot-app/plugins/tree/main/location" >}}
+  {{< card tag= "Goal" title="Fitbit" subtitle="Create fitness goals from your fitbit data." link="https://github.com/digital-carrot-app/plugins/tree/main/fitbit" >}}
+  {{< card tag= "Enforcement" title="Pi-Hole Website Blocker" subtitle="Block distractions for any device on your local network." link="https://github.com/digital-carrot-app/plugins/tree/main/pihole" >}}
 {{< /cards >}}
 
 Want a specific plugin? Open a ticket on [GitHub](https://github.com/digital-carrot-app/plugins/) to request it or submit a PR to add one yourself! Learn more about plugins in our [developer guide](/).

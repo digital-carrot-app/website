@@ -80,7 +80,7 @@ How it Works
   Get Healthy
 {{< /hextra/hero-section >}}
 {{< hextra/hero-subtitle >}}
-  Block social media, games and online video until I have...
+  Block social media, games and online video until I...
 {{< /hextra/hero-subtitle >}}
 
 </div>
@@ -88,7 +88,7 @@ How it Works
 
 {{< hextra/feature-grid cols="3" >}}
   {{< hextra/feature-card
-    title="Burned 300 calories"
+    title="Burn 300 calories"
     subtitle="Use your health data to verify that you've been active throughout the day."
     image="/images/goals/active_calories.jpeg"
     style="height: 300px"
@@ -96,7 +96,7 @@ How it Works
   >}}
 
   {{< hextra/feature-card
-    title="Gone to the Gym"
+    title="Go to the Gym"
     subtitle="Use your phone's GPS to verify that you actually went to the gym and spent enough time there."
     image="/images/goals/gym.jpeg"
     style="height: 300px"
@@ -104,7 +104,7 @@ How it Works
   >}}
 
   {{< hextra/feature-card
-    title="Spent 15 minutes Meditating"
+    title="Spend 15 minutes Meditating"
     subtitle="Set a timer and meditate until it is done."
     image="/images/goals/meditate.jpeg"
     style="height: 300px"

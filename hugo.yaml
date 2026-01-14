@@ -35,6 +35,9 @@ menu:
     - name: Plugins
       pageRef: /plugins
       weight: 4
+    - name: Feedback
+      pageRef: /feedback
+      weight: 5
     - name: Docs
       pageRef: /docs
       weight: 10
