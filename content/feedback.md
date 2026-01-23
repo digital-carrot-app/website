@@ -2,7 +2,7 @@
 date: '2025-07-27T08:00:58-06:00'
 title: 'Feedback'
 ---
-> [!NOTE]
+> [!NOTE] iOS Update Issue
 > We're aware of an issue where the latest update of the iOS app is causing the app to crash on launch and
 > we've submitted a patch to app store to fix it.
 > 
