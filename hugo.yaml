@@ -38,6 +38,9 @@ menu:
     - name: Help
       pageRef: /feedback
       weight: 5
+    - name: Blog
+      pageRef: /blog
+      weight: 6
     - name: Docs
       pageRef: /docs
       weight: 10
@@ -60,9 +63,21 @@ params:
       # height: 40
 
   footer:
-    displayCopyright: false
+    displayCopyright: true
     displayPoweredBy: false
 
   editURL:
     enable: false
     base: "https://github.com/digital-carrot-app/website/edit/main/content"
+
+  blog:
+    list:
+      displayTags: true
+      # date | lastmod | publishDate | title | weight
+      sortBy: date
+      sortOrder: desc # or "asc"
+      # Pagination
+      pagerSize: 20
+
+    article:
+      displayPagination: true
