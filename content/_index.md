@@ -4,32 +4,85 @@ layout: "hextra-home"
 # title: 'Home'
 ---
 
-{{< hextra/hero-container
-  image="/images/hero2.png"
-  imageWidth=800
-  imageTitle="Digital Carrot"
->}}
-
-<div class="hx:mt-6 hx:mb-6">
-    <img src="/images/logo.svg" style="height: 150px" />
-</div>
-
-<div class="hx:mt-6 hx:mb-6">
+<div class="flex flex-col md:flex-row items-center gap-8 pb-12 px-6">
+  <!-- Text and buttons section (2/3) -->
+  <div class="w-full md:w-2/3">
+    <div class="flex flex-col md:flex-row items-center md:items-start gap-4 mb-6">
+      <img src="/images/logo-icon.svg" width="80px" class="flex-shrink-0" alt="Digital Carrot" />
+      <div>
 {{< hextra/hero-headline >}}
-  Turn your digital addictions into a super power
-{{< /hextra/hero-headline >}}
+  Turn your Digital Distractions into a Super Power
+  {{< /hextra/hero-headline >}}
 </div>
-<div class="hx:mt-6 hx:mb-6">
-{{< hextra/hero-subtitle >}}
-  Digital Carrot is the world's most flexible distraction blocker. It helps you build healthy habits by blocking apps, websites and video games until you meet your daily goals.
-{{< /hextra/hero-subtitle >}}
+    </div>
+    <div class="mb-4">
+    <p class="text-lg text-gray-600 dark:text-gray-400">
+      Digital Carrot is the world's most flexible distraction blocker. It helps you build healthy habits by blocking apps, websites and video games until you meet your daily goals.
+    </p>
+    </div>
+    <div class="mb-4">
+      <div id="download-buttons" class="flex flex-wrap gap-4">
+        <a id="btn-iphone" href="https://itunes.apple.com/app/id6749398240" class="download-btn inline-flex items-center gap-2 px-5 py-3 rounded-lg border border-gray-300 dark:border-neutral-700 bg-white dark:bg-neutral-800 text-gray-700 dark:text-gray-200 hover:border-blue-500 transition-colors" data-os="iphone">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><rect x="5" y="2" width="14" height="20" rx="2" ry="2" stroke-width="2"/><line x1="12" y1="18" x2="12" y2="18" stroke-width="3" stroke-linecap="round"/></svg>
+          iPhone
+        </a>
+        <a id="btn-android" href="https://forms.gle/JQr9sjcNNEQRaYNV8" class="download-btn inline-flex items-center gap-2 px-5 py-3 rounded-lg border border-gray-300 dark:border-neutral-700 bg-white dark:bg-neutral-800 text-gray-700 dark:text-gray-200 hover:border-blue-500 transition-colors" data-os="android">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><rect x="5" y="2" width="14" height="20" rx="2" ry="2" stroke-width="2"/><line x1="12" y1="18" x2="12" y2="18" stroke-width="3" stroke-linecap="round"/></svg>
+          Android
+        </a>
+        <a id="btn-macos" href="https://github.com/digital-carrot-app/release/releases/latest/download/Digital.Carrot.dmg" class="download-btn inline-flex items-center gap-2 px-5 py-3 rounded-lg border border-gray-300 dark:border-neutral-700 bg-white dark:bg-neutral-800 text-gray-700 dark:text-gray-200 hover:border-blue-500 transition-colors" data-os="macos">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2" ry="2" stroke-width="2"/><line x1="8" y1="21" x2="16" y2="21" stroke-width="2"/><line x1="12" y1="17" x2="12" y2="21" stroke-width="2"/></svg>
+          macOS
+        </a>
+        <a id="btn-windows" href="https://github.com/digital-carrot-app/release/releases/latest/download/digital-carrot-windows-x86_64.exe" class="download-btn inline-flex items-center gap-2 px-5 py-3 rounded-lg border border-gray-300 dark:border-neutral-700 bg-white dark:bg-neutral-800 text-gray-700 dark:text-gray-200 hover:border-blue-500 transition-colors" data-os="windows">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2" ry="2" stroke-width="2"/><line x1="8" y1="21" x2="16" y2="21" stroke-width="2"/><line x1="12" y1="17" x2="12" y2="21" stroke-width="2"/></svg>
+          Windows
+        </a>
+        <a id="btn-linux" href="https://forms.gle/ioAMHHMfGvCcTMMs8" class="download-btn inline-flex items-center gap-2 px-5 py-3 rounded-lg border border-gray-300 dark:border-neutral-700 bg-white dark:bg-neutral-800 text-gray-700 dark:text-gray-200 hover:border-blue-500 transition-colors" data-os="linux">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2" ry="2" stroke-width="2"/><line x1="8" y1="21" x2="16" y2="21" stroke-width="2"/><line x1="12" y1="17" x2="12" y2="21" stroke-width="2"/></svg>
+          Linux
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- Hero image section (1/3) -->
+  <div class="w-full md:w-1/3">
+    <img src="/images/smaller_hero.png" alt="Digital Carrot" class="w-full h-auto" />
+  </div>
 </div>
 
-<div class="hx:mt-6 hx:mb-6">
-{{< hextra/hero-button text="Download" link="/download" >}}
-</div>
-
-{{< /hextra/hero-container >}}
+<script>
+(function() {
+  const ua = navigator.userAgent;
+  const platform = navigator.platform;
+  let os = 'unknown';
+  
+  if (/iPhone|iPad|iPod/.test(ua)) {
+    os = 'iphone';
+  } else if (/Android/.test(ua)) {
+    os = 'android';
+  } else if (/Mac/.test(platform)) {
+    os = 'macos';
+  } else if (/Win/.test(platform)) {
+    os = 'windows';
+  } else if (/Linux/.test(platform)) {
+    os = 'linux';
+  }
+  
+  const container = document.getElementById('download-buttons');
+  const buttons = container.querySelectorAll('.download-btn');
+  
+  buttons.forEach(btn => {
+    if (btn.dataset.os === os) {
+      // Highlight the current OS button
+      btn.classList.remove('bg-white', 'dark:bg-neutral-800', 'text-gray-700', 'dark:text-gray-200', 'border-gray-300', 'dark:border-neutral-700');
+      btn.classList.add('bg-blue-600', 'text-white', 'border-blue-600', 'font-semibold');
+      // Move to front
+      container.prepend(btn);
+    }
+  });
+})();
+</script>
 
 <div class="hx:mt-6 hx:mb-6"></div>
 
