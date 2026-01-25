@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.0.0"
+  },
+  "scripts": {
+    "build:css": "npx @tailwindcss/cli -i ./assets/css/custom-source.css -o ./assets/css/custom.css --minify",
+    "watch:css": "npx @tailwindcss/cli -i ./assets/css/custom-source.css -o ./assets/css/custom.css --watch"
+  }
+}

@@ -1,0 +1,4 @@
+@import "tailwindcss";
+@source "../hugo_stats.json";
+
+/* Add your custom Tailwind CSS styles below */
