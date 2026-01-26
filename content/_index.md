@@ -17,8 +17,11 @@ layout: "hextra-home"
     </div>
     <div class="mb-4">
     <p class="text-lg text-gray-600 dark:text-gray-400">
-      Digital Carrot is the world's most flexible distraction blocker. It helps you build healthy habits by blocking apps, websites and video games until you meet your daily goals.
+      Build healthy habits by blocking apps, websites and video games until you meet your daily goals.
     </p>
+    </div>
+    <div class="mb-6 h-10">
+      <p id="rotating-example" class="text-base text-gray-500 dark:text-gray-400 italic transition-opacity duration-500"></p>
     </div>
     <div class="mb-4">
       <div id="download-buttons" class="flex flex-wrap gap-4">
@@ -53,6 +56,7 @@ layout: "hextra-home"
 
 <script>
 (function() {
+  // OS detection for download buttons
   const ua = navigator.userAgent;
   const platform = navigator.platform;
   let os = 'unknown';
@@ -76,15 +80,38 @@ layout: "hextra-home"
     if (btn.dataset.os === os) {
       // Highlight the current OS button
       btn.classList.remove('bg-white', 'dark:bg-neutral-800', 'text-gray-700', 'dark:text-gray-200', 'border-gray-300', 'dark:border-neutral-700');
-      btn.classList.add('bg-blue-600', 'text-white', 'border-blue-600', 'font-semibold');
+      btn.classList.add('bg-blue-600', 'text-white', 'border-blue-600', 'font-semibold', );
       // Move to front
       container.prepend(btn);
     }
   });
+
+  // Rotating examples
+  const examples = [
+    'Block <span class="text-orange-400 font-semibold">Instagram</span> until my Apple Watch says I\'ve walked <span class="text-emerald-600 font-semibold">6000 steps</span>',
+    'Block <span class="text-orange-400 font-semibold">TikTok</span> until my GPS says I\'ve spent <span class="text-emerald-600 font-semibold">30 minutes at the gym</span>',
+    'Block <span class="text-orange-400 font-semibold">Facebook</span> until I\'ve spent <span class="text-emerald-600 font-semibold">15 minutes tidying my kitchen</span>',
+    'Block <span class="text-orange-400 font-semibold">X</span> until I\'ve checked off <span class="text-emerald-600 font-semibold">all my tasks in Todoist</span>',
+    'Block <span class="text-orange-400 font-semibold">Netflix</span> from <span class="text-emerald-600 font-semibold">9 to 5 on weekdays</span>'
+  ];
+  
+  const exampleEl = document.getElementById('rotating-example');
+  let currentIndex = 0;
+  
+  function showExample() {
+    exampleEl.style.opacity = '0';
+    setTimeout(() => {
+      exampleEl.innerHTML = examples[currentIndex];
+      exampleEl.style.opacity = '1';
+      currentIndex = (currentIndex + 1) % examples.length;
+    }, 500);
+  }
+  
+  showExample();
+  setInterval(showExample, 4000);
 })();
 </script>
 
-<div class="hx:mt-6 hx:mb-6"></div>
 
 {{< hextra/hero-headline >}}
 How it Works

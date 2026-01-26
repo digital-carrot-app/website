@@ -52,6 +52,10 @@ menu:
     #     type: search
 
 params:
+  theme:
+    # light | dark | system
+    default: dark
+    displayToggle: false
   navbar:
     displayTitle: true
     displayLogo: true
