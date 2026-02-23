@@ -27,10 +27,10 @@ layout: "hextra-home"
 
 
   {{< hextra/feature-card
-    title="Android (coming soon)"
+    title="Android"
     icon="android"
-    subtitle="Notify me when Android is available"
-    link="https://forms.gle/JQr9sjcNNEQRaYNV8"
+    subtitle="Download on Google Play"
+    link="https://play.google.com/store/apps/details?id=com.digitalcarrot.digitalcarrot"
   >}}
 
 {{< /hextra/feature-grid >}}
