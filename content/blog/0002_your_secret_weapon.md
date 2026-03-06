@@ -6,6 +6,7 @@ tags:
 ---
 
 In today's hyper-connected world, digital distractions are more than just an annoyance; they're a significant barrier to productivity, well-being, and achieving our personal goals. The constant pings, endless scrolls, and tempting notifications pull us away from what truly matters. But what if there was a way to fight back, not with willpower alone, but with a smart, supportive tool?
+<!--more-->
 
 Welcome to the world of focus apps, and specifically, how tools like Digital Carrot are revolutionizing screen time management and helping individuals cultivate digital wellness.
 
