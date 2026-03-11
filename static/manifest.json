@@ -1,7 +1,7 @@
 {
-  "name": "My App",
-  "description": "My App description",
-  "short_name": "My App",
+  "name": "Digital Carrot - The Most Customizeable Focus app and Blocker",
+  "description": "Block distracting apps until you complete your goals",
+  "short_name": "Digital Carrot",
   "icons": [
     {
       "src": "/favicon-72x72.png",

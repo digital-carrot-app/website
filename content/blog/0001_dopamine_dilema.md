@@ -1,7 +1,8 @@
 ---
 title: "The Dopamine Dilemma: How Digital Carrot Rewires Your Brain for Productivity"
 date: 2026-01-23
-tags: 
+description: "Learn how dopamine drives digital distractions and how Digital Carrot uses your brain's reward system to boost focus & productivity."
+tags:
   - Articles
 ---
 
@@ -113,7 +114,7 @@ Your dopamine will flow either way. Why not flow it toward your goals?
 
 ---
 
-Ready to rewire your reward system? Discover how Digital Carrot can help you transform dopamine from your greatest weakness into your greatest strength at [digitalcarrot.app](https://www.digitalcarrot.app/).
+Ready to rewire your reward system? [Download Digital Carrot](/download) and start transforming dopamine from your greatest weakness into your greatest strength. Check out all the [features](/features) to see how the app blocker and habit tracker works.
 
 ---
 

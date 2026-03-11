@@ -1,11 +1,13 @@
 ---
 date: '2025-07-27T08:00:58-06:00'
 layout: "hextra-home"
+title: "Download"
+description: "Download Digital Carrot for iPhone, Android, Mac or Windows. Block distracting apps and websites until you complete your daily goals. Free with optional premium."
 ---
 <article class="hx:w-full hx:break-words hx:min-h-[calc(100vh-var(--navbar-height))] hx:min-w-0 hx:pt-4 hx:pb-8 hx:pl-[max(env(safe-area-inset-left),1.5rem)] hx:pr-[max(env(safe-area-inset-left),1.5rem)]">
 {{< hextra/hero-container
   image="/images/mobile_cropped.png"
-  imageTitle="Digital Carrot"
+  imageTitle="Digital Carrot app blocker running on iPhone and Android"
 >}}
 
 
@@ -46,7 +48,7 @@ layout: "hextra-home"
 {{< hextra/hero-container
   imageWidth=500
   image="/images/desktop.png"
-  imageTitle="Digital Carrot"
+  imageTitle="Digital Carrot desktop app blocker for Mac and Windows"
 >}}
 
 <div class="hx:mt-6 hx:mb-6">

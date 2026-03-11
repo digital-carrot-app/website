@@ -1,9 +1,8 @@
 ---
 date: '2025-07-27T08:00:58-06:00'
 toc: true
-# layout: "wide"
-
-title: 'Plugins'
+title: "Digital Carrot Plugins – Connect Apple Health, Google Fit, Todoist & More"
+description: "Browse Digital Carrot plugins to connect with Apple Health, Google Fit, Todoist, and more. Extend your goals with custom data sources."
 ---
 
 ## Builtin Plugins

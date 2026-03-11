@@ -1,7 +1,8 @@
 ---
 title: "Crush Procrastination: Master Your Focus with Digital Carrot"
 date: 2026-03-06
-tags: 
+description: "Tired of endless scrolling? Learn how Digital Carrot's accountability approach helps you conquer procrastination and reclaim your focus."
+tags:
   - Articles
 ---
 
@@ -62,4 +63,4 @@ This isn't just about blocking apps; it's about empowering yourself. It’s abou
 
 Take Control of Your Time Today
 
-Ready to stop procrastinating and start achieving? Download Digital Carrot and experience the power of building focus through discipline not willpower. Turn your phone from a source of distraction into a tool for motivation. Your future, more focused self will thank you.
+Ready to stop procrastinating and start achieving? [Download Digital Carrot for free](/download) and experience the power of building focus through discipline not willpower. Turn your phone from a source of distraction into a tool for motivation. Explore the full list of [features](/features) including app blocking, habit tracking, and customizable goals, or check out our [plugins](/plugins) to integrate with your favorite productivity tools. Your future, more focused self will thank you.

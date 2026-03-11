@@ -1,6 +1,7 @@
 ---
 date: '2025-07-27T08:00:58-06:00'
 title: 'Feedback'
+description: "Get help with Digital Carrot, report bugs, request features, or join the community on Reddit and GitHub."
 ---
 
 - Need help with something? Email us at feedback@digitalcarrot.app.

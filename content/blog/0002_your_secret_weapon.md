@@ -1,7 +1,8 @@
 ---
 title: "Digital Carrot: Your Secret Weapon for Building Healthy Habits"
 date: 2026-03-03
-tags: 
+description: "Discover how Digital Carrot helps you fight digital distractions and build lasting healthy habits with smart app blocking and goal tracking."
+tags:
   - Articles
 ---
 
@@ -75,4 +76,8 @@ Here’s how to make the most of Digital Carrot:
 
 Conclusion: Your Partner in Productivity and Wellbeing
 
-Digital distractions are a formidable challenge, but they don't have to derail your progress or well-being. With the right tools, like the productivity companion, Digital Carrot, you can effectively manage your screen time, overcome procrastination, and consistently work towards your goals. It’s time to stop fighting distractions and start cultivating focus. Download Digital Carrot today and begin improving your screen time and mental health, one goal at a time\!
+Digital distractions are a formidable challenge, but they don’t have to derail your progress or well-being. With the right tools, like the productivity companion, Digital Carrot, you can effectively manage your screen time, overcome procrastination, and consistently work towards your goals. It’s time to stop fighting distractions and start cultivating focus.
+
+---
+
+Ready to take control of your screen time? [Download Digital Carrot for free](/download) on iPhone, Android, Mac or Windows. Explore all the [features](/features) including app blocking, goal tracking, and multi-device sync, or browse our [plugins](/plugins) to connect with Apple Health, Todoist and more.

@@ -1,7 +1,8 @@
 ---
 date: '2025-07-27T08:00:58-06:00'
 layout: "hextra-home"
-# title: 'Home'
+title: "Features"
+description: "Block apps and websites, sync across devices, track progress with streaks, and customize goals with plugins. See everything Digital Carrot can do."
 ---
 
 <div class="hx:mt-6 hx:mb-6">
@@ -12,7 +13,7 @@ layout: "hextra-home"
 
 {{< mirror-hero-container
   image="/images/features/block_distractions.jpeg"
-  imageTitle="Digital Carrot"
+  imageTitle="Digital Carrot app blocking distracting apps and websites"
 >}}
 
 <div class="hx:mt-6 hx:mb-6">
@@ -57,7 +58,7 @@ layout: "hextra-home"
 
 {{< hextra/hero-container
   image="/images/features/sync.jpeg"
-  imageTitle="Digital Carrot"
+  imageTitle="Digital Carrot syncing goals across iPhone, Mac and Windows devices"
 >}}
 <div class="hx:mt-6 hx:mb-6">
 {{< hextra/hero-section >}}
@@ -91,7 +92,7 @@ layout: "hextra-home"
 
 {{< mirror-hero-container
   image="/images/features/commitment_mode.jpeg"
-  imageTitle="Digital Carrot"
+  imageTitle="Digital Carrot commitment mode locking settings to prevent cheating"
 >}}
 <div class="hx:mt-6 hx:mb-6">
 {{< hextra/hero-section >}}
@@ -125,7 +126,7 @@ layout: "hextra-home"
 
 {{< hextra/hero-container
   image="/images/features/plugins.jpeg"
-  imageTitle="Digital Carrot"
+  imageTitle="Digital Carrot plugin system connecting to third-party services"
 >}}
 
 <div class="hx:mt-6 hx:mb-6">
@@ -158,7 +159,7 @@ Unlimited Customization with Plugins
 
 {{< mirror-hero-container
   image="/images/features/goals.PNG"
-  imageTitle="Digital Carrot"
+  imageTitle="Digital Carrot customizable goal editor with expression language"
 >}}
 
 <div class="hx:mt-6 hx:mb-6">
@@ -194,7 +195,7 @@ Unlimited Customization with Plugins
 
 {{< hextra/hero-container
   image="/images/features/track_progress.jpeg"
-  imageTitle="Digital Carrot"
+  imageTitle="Digital Carrot progress tracker showing streaks and goal history"
 >}}
 <div class="hx:mt-6 hx:mb-6">
 {{< hextra/hero-section >}}
@@ -229,7 +230,7 @@ Unlimited Customization with Plugins
 
 {{< mirror-hero-container
   image="/images/features/passes.jpeg"
-  imageTitle="Digital Carrot"
+  imageTitle="Digital Carrot passes feature for skipping goals on rest days"
 >}}
 <div class="hx:mt-6 hx:mb-6">
 {{< hextra/hero-section >}}

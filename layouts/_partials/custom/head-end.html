@@ -1,0 +1,106 @@
+<!-- JSON-LD Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Digital Carrot - The Most Customizeable Focus app and Blocker",
+  "url": "https://digitalcarrot.app",
+  "logo": "https://digitalcarrot.app/images/logo-icon.svg",
+  "description": "Digital Carrot blocks apps, websites and distractions until you complete your daily goals.",
+  "sameAs": [
+    "https://github.com/digital-carrot-app",
+    "https://www.reddit.com/r/digitalcarrot/"
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Digital Carrot - The Most Customizeable Focus app and Blocker",
+  "url": "https://digitalcarrot.app"
+}
+</script>
+
+{{ if or (eq .RelPermalink "/") (eq .RelPermalink "/download/") }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Digital Carrot",
+  "description": "Block distracting apps and websites until you complete your daily goals. Habit tracker and app blocker for productivity.",
+  "applicationCategory": "ProductivityApplication",
+  "operatingSystem": "iOS, Android, macOS, Windows",
+  "url": "https://digitalcarrot.app",
+  "downloadUrl": "https://digitalcarrot.app/download/",
+  "offers": [
+    {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD",
+      "description": "Free tier with app blocking, website blocking, custom goals and plugins"
+    },
+    {
+      "@type": "Offer",
+      "price": "7.99",
+      "priceCurrency": "USD",
+      "description": "Premium monthly subscription with sync, passes and commitment mode"
+    },
+    {
+      "@type": "Offer",
+      "price": "59.99",
+      "priceCurrency": "USD",
+      "description": "Premium yearly subscription ($4.99/mo)"
+    }
+  ]
+}
+</script>
+{{ end }}
+
+{{ if .IsPage }}
+{{ if eq .Section "blog" }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": {{ .Title | jsonify }},
+  "description": {{ with .Description }}{{ . | jsonify }}{{ else }}{{ .Summary | plainify | truncate 160 | jsonify }}{{ end }},
+  "datePublished": "{{ .PublishDate.Format "2006-01-02T15:04:05-07:00" }}",
+  "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05-07:00" }}",
+  "url": "{{ .Permalink }}",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Digital Carrot",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://digitalcarrot.app/images/logo-icon.svg"
+    }
+  }
+}
+</script>
+{{ end }}
+{{ end }}
+
+{{ if ne .RelPermalink "/" }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://digitalcarrot.app/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": {{ .Title | jsonify }},
+      "item": "{{ .Permalink }}"
+    }
+  ]
+}
+</script>
+{{ end }}

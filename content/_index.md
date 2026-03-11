@@ -1,14 +1,15 @@
 ---
 date: '2025-07-27T08:00:58-06:00'
 layout: "hextra-home"
-# title: 'Home'
+title: "Digital Carrot"
+description: "Digital Carrot is a focus app that blocks distracting apps and websites until you complete your daily goals. Screen time blocker and habit tracker for iPhone, Android, Mac and Windows."
 ---
 
 <div class="flex flex-col md:flex-row items-center gap-8 pb-12 px-6">
   <!-- Text and buttons section (2/3) -->
   <div class="w-full md:w-2/3">
     <div class="flex flex-col md:flex-row items-center md:items-start gap-4 mb-6">
-      <img src="/images/logo-icon.svg" width="80px" class="flex-shrink-0" alt="Digital Carrot" />
+      <img src="/images/logo-icon.svg" width="80px" class="flex-shrink-0" alt="Digital Carrot focus app logo" />
       <div>
 {{< hextra/hero-headline >}}
   Turn your Digital Distractions into a Super Power
@@ -17,7 +18,7 @@ layout: "hextra-home"
     </div>
     <div class="mb-4">
     <p class="text-lg text-gray-600 dark:text-gray-400">
-      Build healthy habits by blocking apps, websites and video games until you meet your daily goals.
+      The worlds most flexible focus app and app blocker. Block distracting apps, websites and games until you hit your daily fitness, productivity or screen time goals.
     </p>
     </div>
     <div class="mb-6 h-10">
@@ -50,7 +51,7 @@ layout: "hextra-home"
   </div>
   <!-- Hero image section (1/3) -->
   <div class="w-full md:w-1/3">
-    <img src="/images/smaller_hero.png" alt="Digital Carrot" class="w-full h-auto" />
+    <img src="/images/smaller_hero.png" alt="Digital Carrot app showing blocked apps and daily goals on a phone screen" class="w-full h-auto" />
   </div>
 </div>
 
@@ -114,7 +115,7 @@ layout: "hextra-home"
 
 
 {{< hextra/hero-headline >}}
-How it Works
+How the Focus App Works
 {{< /hextra/hero-headline >}}
 <div class="hx:mt-6 hx:mb-6"></div>
 
@@ -157,7 +158,7 @@ How it Works
 
 <div class="hx:mt-6 hx:mb-6">
 {{< hextra/hero-section >}}
-  Get Healthy
+  Get Healthy with Fitness Goals
 {{< /hextra/hero-section >}}
 {{< hextra/hero-subtitle >}}
   Block social media, games and online video until I...
@@ -197,7 +198,7 @@ How it Works
 
 <div class="hx:mt-6 hx:mb-6">
 {{< hextra/hero-section >}}
-  Cut down on Screentime
+  Cut Down on Screen Time with App Blocking
 {{< /hextra/hero-section >}}
 {{< hextra/hero-subtitle >}}
   Block apps, limit usage to certain hours or set a time limit.
@@ -235,7 +236,7 @@ How it Works
 
 <div class="hx:mt-6 hx:mb-6">
 {{< hextra/hero-section >}}
-  Improve your Productivity
+  Boost Your Focus and Productivity with Goal Tracking
 {{< /hextra/hero-section >}}
 {{< hextra/hero-subtitle >}}
   Give yourself some extra motivation to finish your to-do list or learn a new skill.
