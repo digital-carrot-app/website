@@ -5,7 +5,9 @@ weight: 1
 ---
 
 {{< callout type="important" >}} 
-  The Digital Carrot extension for Firefox got accidentally removed by Mozilla. It has been restored, but the update will take some time succesfully roll out.
+  The Digital Carrot extension for Firefox got accidentally removed by Mozilla and has since been restored.
+  
+  If you are still getting an error, please remove the Digital Carrot extension from Firefox and re-install it.
   
   See [this thread](https://discourse.mozilla.org/t/add-on-removed-without-explanation/147949) for details.
 {{< /callout >}}
