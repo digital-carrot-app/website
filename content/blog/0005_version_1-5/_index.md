@@ -9,6 +9,8 @@ tags:
 
 Digital Carrot 1.5 is now available for download and has a whole slew of improvements to the UI.
 
+<!--more-->
+
 ## Plugin Widgets
 
 Widgets allow for plugin authors to add some extra intractability to their plugins. We've added widgets to:
@@ -30,6 +32,5 @@ The new plugin widgets as well as your weekly progress graphs and streaks can no
 ## Rules
 
 Always block and never block rules have been simplified into just rules. A rule can either cause your block list to block or unblock depending on the type of rule.
-
 
 <img src="rules.png" alt="Updated rules" style="width:500px;"/>
