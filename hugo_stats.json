@@ -613,9 +613,6 @@
       "methods",
       "objects",
       "open-the-permissions-and-data-tab",
-      "pinne",
-      "pinned",
-      "pinned-graphs",
       "pinned-widgets",
       "plugin-widgets",
       "pluginjs",
@@ -629,7 +626,6 @@
       "reload-the-plugin-catalog",
       "revisions",
       "rotating-example",
-      "rul",
       "rules",
       "schemas",
       "setup",
@@ -639,6 +635,7 @@
       "the-science-of-earned-rewards",
       "traditional-solutions-miss-the-mark",
       "under-site-access-select-on-all-sites",
+      "whoopsie",
       "windows"
     ]
   }
