@@ -26,7 +26,7 @@ description: "Digital Carrot is a focus app that blocks distracting apps and web
     </div>
     <div class="mb-4">
       <div id="download-buttons" class="flex flex-wrap gap-4">
-        <a id="btn-iphone" href="https://itunes.apple.com/app/id6749398240" class="download-btn inline-flex items-center gap-2 px-5 py-3 rounded-lg border border-gray-300 dark:border-neutral-700 bg-white dark:bg-neutral-800 text-gray-700 dark:text-gray-200 hover:border-blue-500 transition-colors" data-os="iphone">
+        <a id="btn-iphone" href="https://apps.apple.com/app/apple-store/id6749398240?pt=127864829&ct=Website&mt=8" class="download-btn inline-flex items-center gap-2 px-5 py-3 rounded-lg border border-gray-300 dark:border-neutral-700 bg-white dark:bg-neutral-800 text-gray-700 dark:text-gray-200 hover:border-blue-500 transition-colors" data-os="iphone">
           <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><rect x="5" y="2" width="14" height="20" rx="2" ry="2" stroke-width="2"/><line x1="12" y1="18" x2="12" y2="18" stroke-width="3" stroke-linecap="round"/></svg>
           iPhone
         </a>
