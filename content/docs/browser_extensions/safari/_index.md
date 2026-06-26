@@ -27,7 +27,7 @@ Click "Always Allow on Every Website..." and grant permissions to view all sites
 
 ![](./all_sites.png)
 
-### Enable the Digital Carrot Extension
+### Allow Private Browsing
 
 Make sure "Allow in Private Browsing" is checked.
 
