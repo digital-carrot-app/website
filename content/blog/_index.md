@@ -1,6 +1,9 @@
 ---
 title: "Blog"
 description: "Tips, guides and insights on focus, productivity, digital wellness, and building healthy habits with Digital Carrot."
+sidebar:
+  exclude: false
+weight: 70
 ---
 
 <div style="text-align: center; margin-top: 1em;">

@@ -3,6 +3,10 @@ date: '2025-07-27T08:00:58-06:00'
 layout: "hextra-home"
 title: "Digital Carrot"
 description: "Digital Carrot is a focus app that blocks distracting apps and websites until you complete your daily goals. Screen time blocker and habit tracker for iPhone, Android, Mac and Windows."
+
+cascade:
+  - sidebar:
+      exclude: true
 ---
 
 <div class="flex flex-col md:flex-row items-center gap-8 pb-12 px-6">

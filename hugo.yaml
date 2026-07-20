@@ -23,9 +23,9 @@ menu:
     - name: Download
       pageRef: /download
       weight: 1
-    # - name: Pricing
-    #   pageRef: /pricing
-    #   weight: 2
+    - name: Pricing
+      pageRef: /pricing
+      weight: 2
     # - name: Sync
     #   pageRef: /sync
     #   weight: 3
@@ -38,9 +38,12 @@ menu:
     - name: Help
       pageRef: /feedback
       weight: 5
+    - name: About Me
+      pageRef: /about
+      weight: 6
     - name: Blog
       pageRef: /blog
-      weight: 6
+      weight: 7
     - name: Docs
       pageRef: /docs
       weight: 10

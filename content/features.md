@@ -3,6 +3,9 @@ date: '2025-07-27T08:00:58-06:00'
 layout: "hextra-home"
 title: "Features"
 description: "Block apps and websites, sync across devices, track progress with streaks, and customize goals with plugins. See everything Digital Carrot can do."
+sidebar:
+  exclude: false
+weight: 30
 ---
 
 <div class="hx:mt-6 hx:mb-6">

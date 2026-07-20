@@ -1,6 +1,9 @@
 ---
 title: Documentation
 type: docs/list
+sidebar:
+  exclude: false
+weight: 90
 ---
 
 {{< cards >}}
