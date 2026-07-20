@@ -54,6 +54,12 @@ menu:
 
 params:
   description: "Digital Carrot blocks apps, websites and distractions until you complete your daily goals. Available on iOS, Android, Mac and Windows."
+  # Stripe hosted payment link URLs for the /payment page. Replace with your real
+  # Stripe Payment Link URLs. The page appends `client_reference_id` and
+  # `locked_prefilled_email` from the page's query parameters to these.
+  payment:
+    yearlyStripeUrl: "https://buy.stripe.com/fZu14p7335fwfYR4xHasg00"
+    monthlyStripeUrl: "https://buy.stripe.com/5kQ00laff0Zg7sl3tDasg01"
   images:
     - /images/og-image.png
   theme:

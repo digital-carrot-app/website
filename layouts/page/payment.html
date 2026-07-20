@@ -1,0 +1,144 @@
+{{ define "main" }}
+<style>
+    .dc-payment { width: 100%; max-width: 720px; margin: 0 auto; text-align: center; }
+    .dc-payment h1 {  font-size: 1.5rem; }
+    .dc-payment .subtitle { color: #a0a0a0; margin-top: 0; margin-bottom: 2rem; }
+    .dc-payment .plans {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+        justify-content: center;
+    }
+    .dc-payment .plan {
+        background: #2d2d2d;
+        padding: 2rem;
+        border-radius: 12px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+        flex: 1 1 260px;
+        max-width: 320px;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #3a3a3a;
+        color: #e0e0e0;
+    }
+    .dc-payment .plan.featured { border-color: #66bb6a; }
+    .dc-payment .plan h2 { margin: 0 0 0.5rem; font-size: 1.35rem; }
+    .dc-payment .price { font-size: 2.25rem; font-weight: 700; margin: 0.25rem 0; }
+    .dc-payment .price .per { font-size: 1rem; font-weight: 400; color: #a0a0a0; }
+    .dc-payment .plan .note { color: #a0a0a0; font-size: 0.9rem; min-height: 1.2rem; margin: 0.5rem 0 1.5rem; }
+    .dc-payment .buy {
+        margin-top: auto;
+        display: inline-block;
+        background: #66bb6a;
+        color: #16240f;
+        font-weight: 700;
+        text-decoration: none;
+        padding: 0.85rem 1.25rem;
+        border-radius: 8px;
+        transition: background 0.15s ease;
+    }
+    .dc-payment .buy:hover { background: #7bc97f; }
+    .dc-payment .buy.disabled {
+        background: #3a3a3a;
+        color: #808080;
+        pointer-events: none;
+        cursor: default;
+    }
+    .dc-payment .notice {
+        display: none;
+        background: #332b1a;
+        border: 1px solid #6b5a2a;
+        color: #d9c48a;
+        border-radius: 8px;
+        padding: 0.85rem 1rem;
+        margin-bottom: 2rem;
+        font-size: 0.9rem;
+    }
+    .dc-payment .notice.show { display: block; }
+    .dc-payment .tax-note { color: #a0a0a0; font-size: 0.85rem; margin-top: 1.5rem; }
+    .dc-features { max-width: 960px; margin: 1.5rem auto; }
+    .dc-features h2 { text-align: center; margin-bottom: 1.5rem; }
+</style>
+
+<div class='hx:mx-auto hx:flex hextra-max-page-width'>
+    {{ partial "sidebar.html" (dict "context" . "disableSidebar" true) }}
+    <div class="hx:w-full hx:break-words hx:min-h-[calc(100vh-var(--navbar-height))] hx:min-w-0 hx:pb-8 hx:pt-8 hx:md:pt-12 hx:pl-[max(env(safe-area-inset-left),1.5rem)] hx:pr-[max(env(safe-area-inset-left),1.5rem)]">
+        <div class="dc-payment">
+            <h1>IF YOU FOUND THIS PAGE IGNORE IT!</h1>
+
+            I'm happy that you're excited to get a subscription, but I'm currently testing this page right now, so don't go buying anything!
+
+            <!--<h1>Subscribe to Sync</h1>-->
+            <div class="dc-features">
+                <h2>Features</h2>
+                {{- $c1 := partial "shortcodes/card" (dict "page" . "title" "End to End Encrypted" "icon" "lock-closed" "subtitle" "All of your data is security using the best encryption money can buy.") -}}
+                {{- $c2 := partial "shortcodes/card" (dict "page" . "title" "Health Goals on your PC" "icon" "heart" "subtitle" "Access health data from your phone on your PC.") -}}
+                {{- $c3 := partial "shortcodes/card" (dict "page" . "title" "Block PC and Mobile Apps" "icon" "puzzle" "subtitle" "Cut down on your gaming habit no matter where you are.") -}}
+                {{- $c4 := partial "shortcodes/card" (dict "page" . "title" "Backup your Data" "icon" "save" "subtitle" "Don't lose your streaks because you lost your phone!") -}}
+                {{- partial "shortcodes/cards" (dict "cols" 2 "content" (printf "%s%s%s%s" $c1 $c2 $c3 $c4 | safeHTML)) -}}
+            </div>
+        </div>
+
+
+        <div class="dc-payment">
+            <div id="missing-client" class="notice">
+                To purchase, open this page from the Digital Carrot app so we can link the
+                subscription to your account.
+            </div>
+
+            <div class="plans">
+                <div class="plan">
+                    <h2>Yearly</h2>
+                    <p class="price">$59.99<span class="per"> /year</span></p>
+                    <p class="note">$5.00/month, billed annually</p>
+                    <a id="buy-yearly" class="buy disabled" href="#">Subscribe</a>
+                </div>
+                <div class="plan">
+                    <h2>Monthly</h2>
+                    <p class="price">$7.99<span class="per"> /month</span></p>
+                    <p class="note">Billed monthly</p>
+                    <a id="buy-monthly" class="buy disabled" href="#">Subscribe</a>
+                </div>
+            </div>
+
+            <p class="tax-note">Applicable tax will be calculated and included at checkout.</p>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Stripe hosted payment links, configured in hugo.yaml (params.payment).
+    const STRIPE_URLS = {
+        yearly: {{ .Site.Params.payment.yearlyStripeUrl }},
+        monthly: {{ .Site.Params.payment.monthlyStripeUrl }}
+    };
+
+    const params = new URLSearchParams(window.location.search);
+    const clientId = params.get('client_id');
+    const email = params.get('email');
+
+    function buildStripeUrl(base) {
+        const url = new URL(base);
+        url.searchParams.set('client_reference_id', clientId);
+        if (email) {
+            url.searchParams.set('locked_prefilled_email', email);
+        }
+        return url.toString();
+    }
+
+    function enableBuy(id, base) {
+        const el = document.getElementById(id);
+        el.href = buildStripeUrl(base);
+        el.classList.remove('disabled');
+    }
+
+    // client_id is required to link the purchase to an account. Without it we
+    // still show the pricing, but the purchase links stay disabled.
+    if (clientId) {
+        enableBuy('buy-yearly', STRIPE_URLS.yearly);
+        enableBuy('buy-monthly', STRIPE_URLS.monthly);
+    } else {
+        document.getElementById('missing-client').classList.add('show');
+    }
+</script>
+{{ end }}
