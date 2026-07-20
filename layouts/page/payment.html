@@ -64,11 +64,7 @@
     {{ partial "sidebar.html" (dict "context" . "disableSidebar" true) }}
     <div class="hx:w-full hx:break-words hx:min-h-[calc(100vh-var(--navbar-height))] hx:min-w-0 hx:pb-8 hx:pt-8 hx:md:pt-12 hx:pl-[max(env(safe-area-inset-left),1.5rem)] hx:pr-[max(env(safe-area-inset-left),1.5rem)]">
         <div class="dc-payment">
-            <h1>IF YOU FOUND THIS PAGE IGNORE IT!</h1>
-
-            I'm happy that you're excited to get a subscription, but I'm currently testing this page right now, so don't go buying anything!
-
-            <!--<h1>Subscribe to Sync</h1>-->
+            <h1>Subscribe to Sync</h1>
             <div class="dc-features">
                 <h2>Features</h2>
                 {{- $c1 := partial "shortcodes/card" (dict "page" . "title" "End to End Encrypted" "icon" "lock-closed" "subtitle" "All of your data is security using the best encryption money can buy.") -}}
