@@ -1,9 +1,11 @@
 ---
 title: Documentation
 type: docs/list
-sidebar:
-  exclude: false
 weight: 90
+
+cascade:
+  - sidebar:
+      exclude: false
 ---
 
 {{< cards >}}
