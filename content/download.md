@@ -68,15 +68,13 @@ weight: 10
 
 {{< hextra/feature-grid cols=1 >}}
   {{< hextra/feature-card
-    title="MacOS (beta)"
-    subtitle="Download the Beta"
+    title="MacOS"
     icon="apple"
     link="https://github.com/digital-carrot-app/release/releases/latest/download/Digital.Carrot.dmg"
   >}}
 
   {{< hextra/feature-card
-    title="Windows (beta)"
-    subtitle="Download the Beta"
+    title="Windows"
     icon="windows"
     link="https://github.com/digital-carrot-app/release/releases/latest/download/digital-carrot-windows-x86_64.exe"
   >}}
