@@ -1,6 +1,8 @@
 ---
 title: "Migrating Fitbit to Google Health"
 date: 2026-09-28
+sidebar:
+  exclude: false
 # description: "See what's new "
 tags:
   - Articles
@@ -21,26 +23,53 @@ re-recreate their goals using the default plugin.
 
 ## How to Migrate your Fitbit Goals
 
-> [!IMPORTANT] Update Digital Carrot
-> Make sure you're on the latest version of Digital Carrot (1.7.1). You can still set up
-> goals for Fitbit in the older version of the app, but it will instruct you to use the
-> Fitbit plugin.
+> [!WARNING] Fitbit is no longer available on PC
+> Fitbit data can still be accessed through Apple Health on iPhone and Health Connect on
+> Android, but is no longer available on PC. You can still access your health goals on PC
+> with sync.
 
 
-The good news here is that the new Google Health app that [everyone loves so much](https://kotaku.com/google-fitbit-app-health-new-update-ai-filled-version-and-everybody-is-mad-2000699806)
-finally supports Apple Health! You can set it up by creating a new health goal. 
+{{% steps %}}
+
+### Download Google Health
+
+The [Google Health app](https://www.healthapp.google/) is available on iPhone and Android.
+It has replaced the old Fitbit app and supports syncing health data with Apple Health and
+Android Health Connect.
+
+### Set up Google Health
+
+Tap the icon in the upper left corner to connect new devices.
+
+![](iphone_home.png)
+
+**On iPhone**
+
+1. Tap "Apps and services" under "Connections"
+2. Tap "Apple Health app" to connect to Apple Health.
+
+> [!NOTE]
+> You don't need to share all of your Apple Health data with Google. Granting Google Health permission
+> to only write to Apple Health is sufficient for Digital Carrot.
+
+![](iphone_connect.png)
+
+**On Android**
+
+1. Tap "Partner Apps"
+
+![](android_partner_apps.jpg)
+
+2. Tap "Manage Health Connect" to share health data with other apps
+
+![](android_health_connect.jpg)
+
+### Create a new Goal
+
+Create a new health goal in Digital Carrot. If the app tells you to use the Fitbit Plugin when
+you select your fitness tracker, go back and pick "Other Fitness Trackers". Older versions of
+the app will still prompt you to use the Fitbit plugin.
 
 ![](create_goal.jpg)
 
-Select the Fitbit option from the list:
-
-![](select_fitbit.jpg)
-
-## Troubleshooting
-
-If you aren't seeing your Fitbit data show up in the app do the following:
-
-- On Android: go to Settings > System Capabilities > Google Health Connect 
-- On iOS: go to Settings > System Capabilities > Apple Health
-- Ensure that the health capability is running. If you don't see Fitbit under "My
-  Fitness Trackers", click "Update" to add it.
+{{% /steps %}}
