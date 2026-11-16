@@ -7,6 +7,7 @@ sidebar:
 weight: 50
 ---
 
-- Need help with something? Email us at feedback@digitalcarrot.app.
-- Have questions or want to share your progress? Check out the [Digital Carrot subreddit](https://www.reddit.com/r/digitalcarrot/)
-- Found a bug or want to request a feature? Find us on [GitHub](https://github.com/digital-carrot-app/plugins)
+- Email: feedback@digitalcarrot.app.
+- [Discord](https://discord.gg/dyakZ4Q7q2)
+- [Digital Carrot subreddit](https://www.reddit.com/r/digitalcarrot/)
+- [GitHub](https://github.com/digital-carrot-app/plugins)
