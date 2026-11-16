@@ -15,6 +15,11 @@ I've been hard at work over the past few months on a pretty big update to Digita
 to take this opportunity to share what I've been working on and to request feedback before it
 releases in December.
 
+If you have any thoughts, please feel free to share them on:
+
+- [Reddit](https://www.reddit.com/r/digitalcarrot/comments/1xxwrjy/feedback_for_digital_carrot_20/)
+- [Discord](https://discord.gg/dyakZ4Q7q2)
+
 <!--more-->
 
 ## Visual Overhaul
